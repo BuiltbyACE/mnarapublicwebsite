@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     images: [{ url: "/images/hero-2.webp", width: 1920, height: 1080 }],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/about",
+    canonical: "https://www.mnaraschool.com/about/",
   },
 };
 

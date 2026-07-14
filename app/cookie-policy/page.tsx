@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'How Mnara School uses cookies on its website and how you can manage your preferences.',
   robots: { index: true, follow: true },
   alternates: {
-    canonical: "https://www.mnaraschool.com/cookie-policy",
+    canonical: "https://www.mnaraschool.com/cookie-policy/",
   },
 };
 

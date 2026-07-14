@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Terms and conditions governing use of the Mnara School website.',
   robots: { index: true, follow: true },
   alternates: {
-    canonical: "https://www.mnaraschool.com/terms-of-service",
+    canonical: "https://www.mnaraschool.com/terms-of-service/",
   },
 };
 

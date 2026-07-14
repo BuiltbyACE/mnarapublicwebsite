@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     images: [{ url: "/images/earlyyears.jpeg", width: 1920, height: 1080 }],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/curriculum/early-years",
+    canonical: "https://www.mnaraschool.com/curriculum/early-years/",
   },
 };
 

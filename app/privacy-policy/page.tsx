@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Learn how Mnara School collects, uses, and protects your personal data in accordance with the Kenya Data Protection Act 2019.',
   robots: { index: true, follow: true },
   alternates: {
-    canonical: "https://www.mnaraschool.com/privacy-policy",
+    canonical: "https://www.mnaraschool.com/privacy-policy/",
   },
 };
 
