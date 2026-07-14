@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/mnarasch/public_html
+    - /usr/bin/cd $DEPLOYPATH && /usr/local/bin/npm install --omit=dev
+    - /usr/bin/cd $DEPLOYPATH && /usr/local/bin/npm run build
