@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home2/mnarasch/public_html
     - /bin/rm -rf $DEPLOYPATH/about $DEPLOYPATH/admissions $DEPLOYPATH/co-curricular $DEPLOYPATH/contact $DEPLOYPATH/cookie-policy $DEPLOYPATH/curriculum $DEPLOYPATH/events $DEPLOYPATH/multimedia $DEPLOYPATH/privacy-policy $DEPLOYPATH/terms-of-service $DEPLOYPATH/_next $DEPLOYPATH/_not-found $DEPLOYPATH/images $DEPLOYPATH/icons $DEPLOYPATH/404 $DEPLOYPATH/index.html $DEPLOYPATH/404.html $DEPLOYPATH/.htaccess $DEPLOYPATH/robots.txt $DEPLOYPATH/sitemap.xml $DEPLOYPATH/favicon.svg $DEPLOYPATH/apple-touch-icon.svg $DEPLOYPATH/site.webmanifest
-    - /bin/cp -R $DEPLOYPATH/out/. $DEPLOYPATH/
+    - /usr/bin/unzip -o $DEPLOYPATH/deploy.zip -d $DEPLOYPATH/
