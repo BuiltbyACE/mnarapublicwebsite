@@ -13,6 +13,9 @@ export const metadata: Metadata = {
       "Building confident, well-rounded learners through a holistic and academic approach (Ages 6-11).",
     images: [{ url: "/images/primaryschool.jpeg", width: 1920, height: 1080 }],
   },
+  alternates: {
+    canonical: "https://www.mnaraschool.com/curriculum/primary",
+  },
 };
 
 export default function PrimarySchoolPage() {

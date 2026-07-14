@@ -15,6 +15,9 @@ export const metadata: Metadata = {
       "Nurturing academic excellence and character. Explore Early Years, Primary, and Secondary pathways with AlBaseer Islamic subjects and Cambridge IGCSE.",
     images: [{ url: "/images/hero-1.jpg", width: 1920, height: 1080 }],
   },
+  alternates: {
+    canonical: "https://www.mnaraschool.com/curriculum",
+  },
 };
 
 const pathways = [

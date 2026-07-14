@@ -15,6 +15,9 @@ export const metadata: Metadata = {
       "Beyond the classroom — explore sports, music, ballet, robotics, art & craft, and debate programs.",
     images: [{ url: "/images/hero-2.jpg", width: 1920, height: 1080 }],
   },
+  alternates: {
+    canonical: "https://www.mnaraschool.com/co-curricular",
+  },
 };
 
 export default function CoCurricularPage() {

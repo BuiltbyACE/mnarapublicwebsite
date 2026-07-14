@@ -24,6 +24,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: (activity.longDescription || activity.description).slice(0, 160),
       images: [{ url: activity.image || "/images/hero-1.jpg", width: 1920, height: 1080 }],
     },
+    alternates: {
+      canonical: `https://www.mnaraschool.com/co-curricular/${slug}`,
+    },
   };
 }
 

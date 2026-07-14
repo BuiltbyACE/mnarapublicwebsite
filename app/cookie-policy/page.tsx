@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Cookie Policy',
   description: 'How Mnara School uses cookies on its website and how you can manage your preferences.',
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://www.mnaraschool.com/cookie-policy",
+  },
 };
 
 export default function CookiePolicyPage() {

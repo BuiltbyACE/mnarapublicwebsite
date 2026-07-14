@@ -13,6 +13,9 @@ export const metadata: Metadata = {
       "A vibrant learning environment focusing on academic excellence, life skills, and Islamic mentorship (Ages 12-14).",
     images: [{ url: "/images/hero-2.jpg", width: 1920, height: 1080 }],
   },
+  alternates: {
+    canonical: "https://www.mnaraschool.com/curriculum/middle-school",
+  },
 };
 
 export default function MiddleSchoolPage() {

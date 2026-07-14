@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
@@ -20,14 +20,21 @@ const openSans = Open_Sans({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#A02021",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.mnaraschool.com"),
   title: {
     template: "%s | Mnara School",
     default: "Mnara School | Guiding Every Child to Shine",
   },
   description:
     "Mnara School — a warm, safe nest in Nairobi where young minds are nurtured, supported, and prepared to soar. Campuses in Dennis Pritt, Kasuku, and Karen.",
-  metadataBase: new URL("https://www.mnaraschool.com"),
   keywords: [
     "Mnara School",
     "school in Nairobi",
@@ -41,11 +48,22 @@ export const metadata: Metadata = {
     "Nairobi",
     "IGCSE Nairobi",
     "international school Kenya",
+    "best school Nairobi",
+    "nursery school Nairobi",
+    "secondary school Kenya",
   ],
+  authors: [{ name: "Mnara School", url: "https://www.mnaraschool.com" }],
+  creator: "Mnara School",
+  publisher: "Mnara School",
+  formatDetection: {
+    telephone: true,
+    email: true,
+    address: true,
+  },
   openGraph: {
     title: "Mnara School | Guiding Every Child to Shine",
     description:
-      "A safe, nurturing school where children grow in confidence, character, and academic excellence—guided every step of the way.",
+      "A safe, nurturing school where children grow in confidence, character, and academic excellence — guided every step of the way.",
     url: "https://www.mnaraschool.com",
     siteName: "Mnara School",
     type: "website",
@@ -65,6 +83,7 @@ export const metadata: Metadata = {
     description:
       "A safe, nurturing school where children grow in confidence, character, and academic excellence.",
     images: ["/images/hero-1.webp"],
+    creator: "@MnaraSchool",
   },
   robots: {
     index: true,
@@ -77,6 +96,22 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.svg",
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/favicon.svg",
+        color: "#A02021",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest",
   other: {
     "geo.region": "KE-30",
     "geo.placename": "Nairobi",
@@ -91,6 +126,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className="antialiased">
         <a
           href="#main-content"
@@ -113,14 +151,20 @@ export default function RootLayout({
               description:
                 "A safe, nurturing school where children grow in confidence, character, and academic excellence.",
               url: "https://www.mnaraschool.com",
-              logo: "https://www.mnaraschool.com/icon.png",
+              logo: "https://www.mnaraschool.com/favicon.svg",
               telephone: "+254713801024",
               email: "info@mnara.co.ke",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Kileleshwa, off Nyeri Road",
                 addressLocality: "Nairobi",
+                addressRegion: "KE",
                 addressCountry: "KE",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: -1.2864,
+                longitude: 36.7739,
               },
               sameAs: [
                 "https://www.facebook.com/MnaraSchool/",
@@ -142,7 +186,8 @@ export default function RootLayout({
                 "@type": "SearchAction",
                 target: {
                   "@type": "EntryPoint",
-                  urlTemplate: "https://www.mnaraschool.com/search?q={search_term_string}",
+                  urlTemplate:
+                    "https://www.mnaraschool.com/search?q={search_term_string}",
                 },
                 "query-input": "required name=search_term_string",
               },

@@ -11,6 +11,9 @@ export const metadata: Metadata = {
       "Get in touch with Mnara School. Visit our Nairobi campuses or send us a message.",
     images: [{ url: "/images/hero-3.jpg", width: 1920, height: 1080 }],
   },
+  alternates: {
+    canonical: "https://www.mnaraschool.com/contact",
+  },
 };
 
 export default function ContactPage() {

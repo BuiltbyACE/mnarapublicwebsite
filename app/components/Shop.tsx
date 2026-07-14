@@ -39,8 +39,8 @@ export default function Shop() {
             excellence, offering a convenient platform where parents and students
             can interact with the school&apos;s services with ease and confidence.
           </p>
-          <Link href="#" className="btn-primary">
-            Shop Now
+          <Link href="/contact" className="btn-primary">
+            Enquire Now
             <ShoppingBag size={18} />
           </Link>
         </div>

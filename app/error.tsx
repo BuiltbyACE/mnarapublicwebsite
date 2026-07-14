@@ -11,7 +11,9 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    console.error(error);
+    if (process.env.NODE_ENV === 'development') {
+      console.error(error);
+    }
   }, [error]);
 
   return (
@@ -34,9 +36,6 @@ export default function Error({
           Back to Home
         </Link>
       </div>
-      {process.env.NODE_ENV === 'development' && error?.message && (
-        <p className="mt-8 text-xs text-red-400 font-mono max-w-lg break-words">{error.message}</p>
-      )}
     </div>
   );
 }

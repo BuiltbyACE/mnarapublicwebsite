@@ -13,6 +13,9 @@ export const metadata: Metadata = {
       "Early Years Foundation at Mnara School (Ages 3–7). English Language under Key Learning Areas.",
     images: [{ url: "/images/earlyyears.jpeg", width: 1920, height: 1080 }],
   },
+  alternates: {
+    canonical: "https://www.mnaraschool.com/curriculum/early-years",
+  },
 };
 
 export default function EarlyYearsPage() {
