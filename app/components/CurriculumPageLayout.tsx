@@ -113,7 +113,7 @@ export default function CurriculumPageLayout({ data, breadcrumbLabel }: Curricul
       {/* Call to Action */}
       <section className="py-20 px-4">
         <div className="max-w-5xl mx-auto rounded-[3rem] bg-gradient-to-br from-primary to-primary-dark overflow-hidden relative shadow-2xl text-center p-12 md:p-20">
-          <div className="absolute inset-0 bg-[url('/images/hero-3.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay" />
+          <div className="absolute inset-0 bg-hero-3 bg-cover bg-center opacity-10 mix-blend-overlay" />
           
           <div className="relative z-10 space-y-8">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white leading-tight">

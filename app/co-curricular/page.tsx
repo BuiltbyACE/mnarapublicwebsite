@@ -88,7 +88,7 @@ export default function CoCurricularPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
           <div className="relative rounded-[3rem] bg-secondary p-12 md:p-20 overflow-hidden shadow-2xl">
             {/* Background pattern */}
-            <div className="absolute inset-0 opacity-10 bg-[url('/images/hero-1.jpg')] bg-cover bg-center mix-blend-overlay" />
+            <div className="absolute inset-0 opacity-10 bg-hero-1 bg-cover bg-center mix-blend-overlay" />
             <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[100px]" />
             
             <div className="relative z-10 text-center space-y-8">

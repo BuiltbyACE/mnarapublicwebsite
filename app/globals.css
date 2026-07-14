@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@source not "../out";
 
 @theme {
   --color-primary: #A02021;
@@ -262,6 +263,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5rem;
   color: var(--color-primary);
   line-height: 1;
+}
+
+/* Background image utilities (avoids Tailwind url() encoding issues) */
+.bg-hero-1 {
+  background-image: url(/images/hero-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-hero-3 {
+  background-image: url(/images/hero-3.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* Swiper/Carousel overrides */
