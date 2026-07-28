@@ -10,11 +10,25 @@ export const metadata: Metadata = {
   title: "Events",
   description:
     "Stay up-to-date with Mnara School Nairobi events: Sports Day, Quran Competition, Hadeeth Competition, Fiqh Fair, and Public Speaking Championship.",
+  keywords: [
+    "Mnara School events",
+    "school events Nairobi",
+    "Quran competition Kenya",
+    "sports day school Nairobi",
+    "school activities Kenya",
+  ],
   openGraph: {
     title: "Events | Mnara School Nairobi",
     description:
       "Stay up-to-date with school events, Quran competitions, sports days, and educational fairs at Mnara School Nairobi.",
-    images: [{ url: "/images/hero-1.jpg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/hero-1.webp", width: 1920, height: 1080, alt: "Mnara School Events" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Events | Mnara School Nairobi",
+    description:
+      "Stay up-to-date with school events, Quran competitions, sports days, and educational fairs.",
+    images: ["https://www.mnaraschool.com/images/hero-1.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/events/",
@@ -32,7 +46,7 @@ const upcomingEvents = [
     category: 'Sports',
     url: 'https://www.mnaraschool.com/events',
     color: 'from-orange-500 to-orange-600',
-    image: '/images/primaryschool.jpeg',
+    image: '/images/IMG_9988.jpg',
   },
   {
     id: 2,
@@ -44,11 +58,11 @@ const upcomingEvents = [
     category: 'Spiritual',
     url: 'https://www.mnaraschool.com/events',
     color: 'from-emerald-500 to-emerald-600',
-    image: '/images/earlyyear2.jpeg',
-  },
-  {
-    id: 3,
-    title: 'Public Speaking Championship',
+    image: '/images/IMG_0066.jpg',
+    },
+    {
+      id: 3,
+      title: 'Public Speaking Championship',
     date: '2026-11-20',
     time: '10:00 AM - 02:00 PM',
     location: 'Mnara Main Auditorium',
@@ -68,11 +82,11 @@ const upcomingEvents = [
     category: 'Spiritual',
     url: 'https://www.mnaraschool.com/events',
     color: 'from-purple-500 to-purple-600',
-    image: '/images/earlyyear3.jpeg',
-  },
-  {
-    id: 5,
-    title: 'Fiqh Fair',
+    image: '/images/IMG_0066.jpg',
+    },
+    {
+      id: 5,
+      title: 'Fiqh Fair',
     date: '2027-02-15',
     time: '09:00 AM - 03:00 PM',
     location: 'Mnara Exhibition Hall',

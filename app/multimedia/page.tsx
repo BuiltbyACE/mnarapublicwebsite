@@ -5,11 +5,24 @@ export const metadata: Metadata = {
   title: "Multimedia Gallery",
   description:
     "Explore Mnara School's photo gallery, campus life, academic achievements, and special events. Experience life at Mnara in Nairobi.",
+  keywords: [
+    "Mnara School gallery",
+    "school photos Nairobi",
+    "Mnara School campus life",
+    "school events photos Kenya",
+  ],
   openGraph: {
     title: "Multimedia Gallery | Mnara School",
     description:
       "Photos and campus moments — experience life at Mnara School Nairobi.",
-    images: [{ url: "/images/hero-3.jpg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/hero-3.webp", width: 1920, height: 1080, alt: "Mnara School Multimedia Gallery" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Multimedia Gallery | Mnara School",
+    description:
+      "Photos and campus moments — experience life at Mnara School Nairobi.",
+    images: ["https://www.mnaraschool.com/images/hero-3.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/multimedia/",

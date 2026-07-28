@@ -9,11 +9,25 @@ export const metadata: Metadata = {
   title: "Upper Secondary – Key Stage 4",
   description:
     "Mnara School Upper Secondary curriculum (Key Stage 4, Ages 15–16). Preparing students for Cambridge IGCSE and AlBaseer examinations with a focus on academic excellence, Islamic values, and future readiness.",
+  keywords: [
+    "IGCSE Nairobi Kenya",
+    "upper secondary school Nairobi",
+    "Cambridge IGCSE school Kenya",
+    "Key Stage 4 Kenya",
+    "Mnara School IGCSE",
+  ],
   openGraph: {
     title: "Upper Secondary – Key Stage 4 | Mnara School",
     description:
       "Upper Secondary at Mnara School — Cambridge IGCSE, AlBaseer subjects, and holistic preparation for higher education (Ages 15–16).",
-    images: [{ url: "/images/hero-3.jpg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/hero-3.webp", width: 1920, height: 1080, alt: "Mnara School Upper Secondary" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Upper Secondary – Key Stage 4 | Mnara School",
+    description:
+      "Cambridge IGCSE, AlBaseer subjects, and holistic preparation for higher education.",
+    images: ["https://www.mnaraschool.com/images/hero-3.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/curriculum/highschool/",

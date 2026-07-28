@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function CTABanner() {
   return (
-    <section className="relative py-16 md:py-20 overflow-hidden">
+    <section aria-label="Call to action" className="relative py-16 md:py-20 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary-dark" />
 

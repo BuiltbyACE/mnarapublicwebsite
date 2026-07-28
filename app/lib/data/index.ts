@@ -107,7 +107,7 @@ export const curricula: Curriculum[] = [
     description: 'An integrated academic and Islamic education curriculum focusing on character formation and holistic learning to nurture God-fearing individuals.',
     icon: BookOpen,
     href: '#',
-    image: '/images/earlyyears.webp',
+    image: '/images/IMG_0089.jpg',
   },
   {
     title: 'Cambridge',
@@ -262,13 +262,13 @@ export const blogPosts: BlogPost[] = [
   {
     title: 'Mnara Students Excel at the 2026 East Africa Robotics Challenge',
     date: 'May 20, 2026',
-    image: '/images/earlyyear3.webp',
+    image: '/images/IMG_0082.jpg',
     href: '/events',
   },
   {
     title: 'Our Annual Cultural Arts Festival Returns This August',
     date: 'April 30, 2026',
-    image: '/images/earlyyear2.webp',
+    image: '/images/IMG_0064.jpg',
     href: '/events',
   },
 ];

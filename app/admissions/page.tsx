@@ -8,11 +8,25 @@ export const metadata: Metadata = {
   title: "Admissions",
   description:
     "Join Mnara School — a nurturing community in Nairobi. Learn about our admissions process, requirements, fee structure, and how to book a school tour.",
+  keywords: [
+    "Mnara School admissions",
+    "school admissions Nairobi",
+    "enroll Mnara School",
+    "school requirements Kenya",
+    "fee structure Mnara School",
+  ],
   openGraph: {
     title: "Admissions | Mnara School",
     description:
       "Join our community. Learn about the admissions process, requirements, and how to book a tour.",
-    images: [{ url: "/images/hero-1.jpg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/hero-1.webp", width: 1920, height: 1080, alt: "Mnara School Admissions" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Admissions | Mnara School",
+    description:
+      "Join our community. Learn about the admissions process, requirements, and how to book a tour.",
+    images: ["https://www.mnaraschool.com/images/hero-1.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/admissions/",

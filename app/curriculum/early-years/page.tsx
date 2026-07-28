@@ -4,14 +4,28 @@ import CurriculumPageLayout from '../../components/CurriculumPageLayout';
 import { CurriculumPageData } from '../../lib/types';
 
 export const metadata: Metadata = {
-  title: "Early Years Foundation (3 Years–7 Years)",
+  title: "Early Years Foundation (3–7 Years)",
   description:
     "Mnara School's Early Years Foundation program for ages 3-7. Play-based learning, nurturing curiosity, and building strong foundations in a warm Nairobi environment.",
+  keywords: [
+    "early years foundation Nairobi",
+    "kindergarten Nairobi Kenya",
+    "nursery school Nairobi",
+    "play-based learning Kenya",
+    "Mnara School early years",
+  ],
   openGraph: {
-    title: "Early Years Foundation (3 Years–7 Years) | Mnara School",
+    title: "Early Years Foundation (3–7 Years) | Mnara School",
     description:
-      "Early Years Foundation at Mnara School (Ages 3–7). English Language under Key Learning Areas.",
-    images: [{ url: "/images/earlyyears.jpeg", width: 1920, height: 1080 }],
+      "Early Years Foundation at Mnara School (Ages 3–7). Play-based learning under Key Learning Areas.",
+    images: [{ url: "https://www.mnaraschool.com/images/earlyyears.webp", width: 1920, height: 1080, alt: "Mnara School Early Years Foundation" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Early Years Foundation (3–7 Years) | Mnara School",
+    description:
+      "Play-based learning for ages 3-7 at Mnara School Nairobi.",
+    images: ["https://www.mnaraschool.com/images/earlyyears.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/curriculum/early-years/",
@@ -29,12 +43,12 @@ export default function EarlyYearsPage() {
       {
         title: 'Structured Play & Discovery',
         description: 'Learning through structured, carefully planned play is at the centre of our curriculum. Children develop social, emotional, physical, and creative skills through natural, engaging learning experiences.',
-        image: '/images/earlyyear2.jpeg',
+        image: '/images/earlyyear2.webp',
       },
       {
         title: 'Holistic Development',
         description: 'Our program focuses on the whole child. Beyond early literacy and numeracy, we emphasize physical education, outdoor learning, and spiritual nurturing to build a strong foundation for future growth.',
-        image: '/images/earlyyear3.jpeg',
+        image: '/images/IMG_0083.jpg',
       },
     ],
     learningAreas: [

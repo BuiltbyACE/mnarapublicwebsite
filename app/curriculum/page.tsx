@@ -9,11 +9,25 @@ export const metadata: Metadata = {
   title: "Curriculum Pathways",
   description:
     "Explore Mnara School Nairobi's academic stages from Early Years to Lower and Upper Secondary, blending the AlBaseer International Islamic Curriculum with Cambridge IGCSE standards.",
+  keywords: [
+    "Mnara School curriculum",
+    "Cambridge IGCSE Nairobi",
+    "AlBaseer Islamic curriculum",
+    "school curriculum Kenya",
+    "Early Years Foundation Nairobi",
+  ],
   openGraph: {
     title: "Curriculum | Mnara School Nairobi",
     description:
       "Nurturing academic excellence and character. Explore Early Years, Primary, and Secondary pathways with AlBaseer Islamic subjects and Cambridge IGCSE.",
-    images: [{ url: "/images/hero-1.jpg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/hero-1.webp", width: 1920, height: 1080, alt: "Mnara School Curriculum" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Curriculum | Mnara School Nairobi",
+    description:
+      "Explore Early Years, Primary, and Secondary pathways with AlBaseer Islamic subjects and Cambridge IGCSE.",
+    images: ["https://www.mnaraschool.com/images/hero-1.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/curriculum/",

@@ -5,6 +5,17 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Learn how Mnara School collects, uses, and protects your personal data in accordance with the Kenya Data Protection Act 2019.',
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Privacy Policy | Mnara School',
+    description: 'Learn how Mnara School collects, uses, and protects your personal data.',
+    images: [{ url: 'https://www.mnaraschool.com/images/hero-2.webp', width: 1920, height: 1080, alt: 'Mnara School Privacy Policy' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy | Mnara School',
+    description: 'Learn how Mnara School collects, uses, and protects your personal data.',
+    images: ['https://www.mnaraschool.com/images/hero-2.webp'],
+  },
   alternates: {
     canonical: "https://www.mnaraschool.com/privacy-policy/",
   },

@@ -3,10 +3,14 @@
   "short_name": "Mnara",
   "description": "Mnara School — a warm, safe nest in Nairobi where young minds are nurtured, supported, and prepared to soar.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#A02021",
   "orientation": "any",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education"],
   "icons": [
     {
       "src": "/icons/icon-192.png",
@@ -20,6 +24,5 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ],
-  "categories": ["education"]
+  ]
 }

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
 import {
@@ -23,7 +24,7 @@ export default function Footer() {
   const programLinks = coCurricularLink?.children?.slice(0, 8) || [];
 
   return (
-    <footer className="relative bg-secondary text-white overflow-hidden">
+    <footer aria-label="Site footer" className="relative bg-secondary text-white overflow-hidden">
       {/* Decorative blobs */}
       <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-[400px] h-[400px] bg-accent/5 rounded-full blur-[80px] pointer-events-none" />
@@ -35,8 +36,14 @@ export default function Footer() {
           {/* Column 1: Branding */}
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center transform rotate-3 group-hover:rotate-6 transition-transform duration-300 shadow-xl shadow-primary/20">
-                <span className="text-white font-heading font-black text-2xl -rotate-3 group-hover:-rotate-6 transition-transform duration-300">M</span>
+              <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center transform rotate-3 group-hover:rotate-6 transition-transform duration-300 shadow-xl shadow-primary/20 p-1.5">
+                <Image
+                  src="/images/logo.png"
+                  alt="Mnara School crest"
+                  width={48}
+                  height={48}
+                  className="-rotate-3 group-hover:-rotate-6 transition-transform duration-300 object-contain w-full h-full"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-2xl leading-tight tracking-tight">Mnara</span>
@@ -75,6 +82,7 @@ export default function Footer() {
               Company
               <span className="absolute -bottom-2 left-0 w-8 h-1 bg-primary rounded-full"></span>
             </h4>
+            <nav aria-label="Company links">
             <ul className="space-y-4">
               {companyLinks.map((link) => (
                 <li key={link.label}>
@@ -100,14 +108,14 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
+            </nav>
           </div>
-
-          {/* Column 3: Programs (Co-curricular) */}
           <div>
             <h4 className="font-heading font-bold text-lg mb-8 relative inline-block">
               Programs
               <span className="absolute -bottom-2 left-0 w-8 h-1 bg-gold rounded-full"></span>
             </h4>
+            <nav aria-label="Programs">
             <ul className="space-y-4">
               {programLinks.map((program) => (
                 <li key={program.label}>
@@ -121,6 +129,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+            </nav>
             
             <div className="mt-8 p-6 bg-white/5 border border-white/10 rounded-2xl">
               <h5 className="text-sm font-bold text-white mb-2">Need Help?</h5>
@@ -187,7 +196,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Mnara School. All rights reserved.
           </p>
           
-          <div className="flex items-center gap-8">
+          <nav aria-label="Legal links" className="flex items-center gap-8">
             <Link href="/privacy-policy" className="text-white/40 hover:text-white text-xs transition-colors underline-offset-4 hover:underline">
               Privacy Policy
             </Link>
@@ -197,7 +206,7 @@ export default function Footer() {
             <Link href="/cookie-policy" className="text-white/40 hover:text-white text-xs transition-colors underline-offset-4 hover:underline">
               Cookie Policy
             </Link>
-          </div>
+          </nav>
           
           <div className="flex items-center gap-2 text-white/20 text-[0.6rem] uppercase tracking-[0.2em]">
             <span>Powered by</span>

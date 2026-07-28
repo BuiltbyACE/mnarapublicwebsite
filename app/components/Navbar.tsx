@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, startTransition } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ChevronDown, Menu, X, BookOpen } from 'lucide-react';
@@ -85,8 +86,15 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0 relative z-[110]" aria-label="Mnara School Home">
-            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center transform rotate-3 shadow-md">
-              <span className="text-white font-heading font-black text-xl -rotate-3">M</span>
+            <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center transform rotate-3 shadow-md p-1">
+              <Image
+                src="/images/logo.png"
+                alt="Mnara School crest"
+                width={40}
+                height={40}
+                className="-rotate-3 object-contain w-full h-full"
+                priority
+              />
             </div>
             <div className="flex flex-col">
               <span className={`font-heading font-bold text-xl leading-tight transition-colors ${navBg ? 'text-primary' : 'text-white'}`}>

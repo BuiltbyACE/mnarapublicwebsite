@@ -5,6 +5,17 @@ export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'Terms and conditions governing use of the Mnara School website.',
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Terms of Service | Mnara School',
+    description: 'Terms and conditions governing use of the Mnara School website.',
+    images: [{ url: 'https://www.mnaraschool.com/images/hero-1.webp', width: 1920, height: 1080, alt: 'Mnara School Terms of Service' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms of Service | Mnara School',
+    description: 'Terms and conditions governing use of the Mnara School website.',
+    images: ['https://www.mnaraschool.com/images/hero-1.webp'],
+  },
   alternates: {
     canonical: "https://www.mnaraschool.com/terms-of-service/",
   },

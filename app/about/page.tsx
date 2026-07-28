@@ -3,16 +3,30 @@ import StandardPage from '../templates/StandardPage';
 import { valueProps } from '../lib/data';
 import CardIcon from '../components/ui/CardIcon';
 import Image from 'next/image';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Mnara School",
   description:
-    "Learn about Mnara School's vision, mission, and values. A nurturing school in Nairobi with campuses in Dennis Pritt, Kasuku, and Karen — guiding every child to shine.",
+    "Learn about Mnara School's vision, mission, and values. A nurturing school in Nairobi with campuses in Kileleshwa, Kasuku, and Karen — guiding every child to shine.",
+  keywords: [
+    "about Mnara School",
+    "Mnara School vision mission values",
+    "school in Kileleshwa Nairobi",
+    "Islamic school Nairobi Kenya",
+  ],
   openGraph: {
-    title: "About Us | Mnara School",
+    title: "About Mnara School | Our Vision, Mission & Values",
+    description:
+      "Learn about Mnara School's vision, mission, and values — guiding every child to shine in Nairobi, Kenya.",
+    images: [{ url: "https://www.mnaraschool.com/images/hero-2.webp", width: 1920, height: 1080, alt: "About Mnara School" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Mnara School | Our Vision, Mission & Values",
     description:
       "Learn about Mnara School's vision, mission, and values — guiding every child to shine.",
-    images: [{ url: "/images/hero-2.webp", width: 1920, height: 1080 }],
+    images: ["https://www.mnaraschool.com/images/hero-2.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/about/",
@@ -20,7 +34,50 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What does Mnara mean?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Mnara means 'guiding lighthouse'. It reflects our commitment to guiding every child toward their full potential with purpose and care.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Where is Mnara School located?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Mnara School is located in Kileleshwa, off Nyeri Road, Nairobi, Kenya. We also have campuses in Kasuku and Karen.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What curriculum does Mnara School follow?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Mnara School follows the Cambridge International curriculum alongside the AlBaseer International Islamic Curriculum, providing a balanced academic and spiritual education.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What age groups does Mnara School cater to?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Mnara School caters to children from ages 3 through 16, covering Early Years Foundation, Primary School, Lower Secondary (Key Stage 3), and Upper Secondary (Key Stage 4/IGCSE).",
+        },
+      },
+    ],
+  };
+
   return (
+    <>
+      <Script id="faq-about" type="application/ld+json">
+        {JSON.stringify(faqSchema)}
+      </Script>
     <StandardPage
       title="About Mnara School"
       image="/images/hero-2.jpg"
@@ -82,5 +139,6 @@ export default function AboutPage() {
         </div>
       </div>
     </StandardPage>
+    </>
   );
 }

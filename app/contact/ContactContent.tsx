@@ -5,6 +5,7 @@ import Input from '../components/ui/Input';
 import Textarea from '../components/ui/Textarea';
 import { MapPin, Phone, Mail, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 import FormPage from '../templates/FormPage';
+import Script from 'next/script';
 
 type FormStatus = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -171,6 +172,28 @@ export default function ContactContent() {
   );
 
   return (
+    <>
+      <Script id="contact-page-schema" type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          name: "Contact Mnara School",
+          description: "Get in touch with Mnara School in Nairobi, Kenya",
+          url: "https://www.mnaraschool.com/contact/",
+          mainEntity: {
+            "@type": "School",
+            name: "Mnara School",
+            telephone: "+254713801024",
+            email: "info@mnara.co.ke",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Kileleshwa, off Nyeri Road",
+              addressLocality: "Nairobi",
+              addressCountry: "KE",
+            },
+          },
+        })}
+      </Script>
     <FormPage
       title="Contact Us"
       image="/images/hero-3.jpg"
@@ -178,5 +201,6 @@ export default function ContactContent() {
       infoContent={infoContent}
       formContent={formContent}
     />
+    </>
   );
 }

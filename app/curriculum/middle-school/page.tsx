@@ -7,11 +7,25 @@ export const metadata: Metadata = {
   title: "Lower Secondary (Key Stage 3)",
   description:
     "Mnara School Lower Secondary program for Ages 12-14 (Key Stage 3). Academic excellence meets personal growth, essential life skills, and Islamic mentorship in Nairobi.",
+  keywords: [
+    "lower secondary school Nairobi",
+    "Key Stage 3 Kenya",
+    "secondary school Kenya",
+    "Mnara School secondary",
+    "Islamic mentorship school Kenya",
+  ],
   openGraph: {
     title: "Lower Secondary (Key Stage 3) | Mnara School",
     description:
       "A vibrant learning environment focusing on academic excellence, life skills, and Islamic mentorship (Ages 12-14).",
-    images: [{ url: "/images/hero-2.jpg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/hero-2.webp", width: 1920, height: 1080, alt: "Mnara School Lower Secondary" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lower Secondary (Key Stage 3) | Mnara School",
+    description:
+      "Academic excellence, life skills, and Islamic mentorship for Ages 12-14.",
+    images: ["https://www.mnaraschool.com/images/hero-2.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/curriculum/middle-school/",

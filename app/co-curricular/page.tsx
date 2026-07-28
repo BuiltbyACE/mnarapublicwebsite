@@ -9,11 +9,25 @@ export const metadata: Metadata = {
   title: "Co-Curricular Activities",
   description:
     "Explore Mnara School's co-curricular programs: sports, music, ballet, robotics, art & craft, debate, and more. Beyond the classroom excellence in Nairobi.",
+  keywords: [
+    "Mnara School co-curricular",
+    "school activities Nairobi",
+    "robotics school Kenya",
+    "sports school Nairobi",
+    "art and craft school Kenya",
+  ],
   openGraph: {
     title: "Co-Curricular Activities | Mnara School",
     description:
       "Beyond the classroom — explore sports, music, ballet, robotics, art & craft, and debate programs.",
-    images: [{ url: "/images/hero-2.jpg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/hero-2.webp", width: 1920, height: 1080, alt: "Mnara School Co-Curricular Activities" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Co-Curricular Activities | Mnara School",
+    description:
+      "Beyond the classroom — explore sports, music, ballet, robotics, art & craft, and debate programs.",
+    images: ["https://www.mnaraschool.com/images/hero-2.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/co-curricular/",

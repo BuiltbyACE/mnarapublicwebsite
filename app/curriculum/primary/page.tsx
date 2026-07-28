@@ -7,11 +7,25 @@ export const metadata: Metadata = {
   title: "Primary School Curriculum",
   description:
     "Mnara School Primary program for ages 6-11. Building strong academic foundations through Key Stages 1 & 2 with Cambridge and AlBaseer pathways in Nairobi.",
+  keywords: [
+    "primary school Nairobi",
+    "Key Stage 1 2 Kenya",
+    "Cambridge primary curriculum Nairobi",
+    "Mnara School primary",
+    "primary education Kenya",
+  ],
   openGraph: {
     title: "Primary School Curriculum | Mnara School",
     description:
       "Building confident, well-rounded learners through a holistic and academic approach (Ages 6-11).",
-    images: [{ url: "/images/primaryschool.jpeg", width: 1920, height: 1080 }],
+    images: [{ url: "https://www.mnaraschool.com/images/primaryschool.webp", width: 1920, height: 1080, alt: "Mnara School Primary Curriculum" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Primary School Curriculum | Mnara School",
+    description:
+      "Building confident, well-rounded learners through a holistic approach (Ages 6-11).",
+    images: ["https://www.mnaraschool.com/images/primaryschool.webp"],
   },
   alternates: {
     canonical: "https://www.mnaraschool.com/curriculum/primary/",
