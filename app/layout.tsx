@@ -29,13 +29,13 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.mnaraschool.com"),
+  metadataBase: new URL("https://mnara.sc.ke"),
   title: {
     template: "%s | Mnara School",
-    default: "Mnara School | Quality Education in Nairobi, Kenya",
+    default: "Mnara School | Cambridge & Islamic Education in Kileleshwa, Nairobi",
   },
   description:
-    "Mnara School — a warm, safe nest in Nairobi where young minds are nurtured, supported, and prepared to soar. Campuses in Kileleshwa, Kasuku, and Karen. Cambridge IGCSE & AlBaseer Islamic Curriculum.",
+    "Mnara School, Kileleshwa (off Nyeri Road), Nairobi: Cambridge IGCSE and AlBaseer Islamic Curriculum from Early Years to Secondary. Book a tour or enquire about admissions today.",
   keywords: [
     "Mnara School",
     "school in Nairobi",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     "early years foundation Nairobi",
     "lower secondary school Kenya",
   ],
-  authors: [{ name: "Mnara School", url: "https://www.mnaraschool.com" }],
+  authors: [{ name: "Mnara School", url: "https://mnara.sc.ke" }],
   creator: "Mnara School",
   publisher: "Mnara School",
   formatDetection: {
@@ -65,13 +65,13 @@ export const metadata: Metadata = {
     title: "Mnara School | Quality Education in Nairobi, Kenya",
     description:
       "A safe, nurturing school where children grow in confidence, character, and academic excellence — guided every step of the way. Cambridge IGCSE & AlBaseer Islamic Curriculum.",
-    url: "https://www.mnaraschool.com",
+    url: "https://mnara.sc.ke",
     siteName: "Mnara School",
     type: "website",
     locale: "en_KE",
     images: [
       {
-        url: "https://www.mnaraschool.com/images/hero-1.webp",
+        url: "https://mnara.sc.ke/images/hero-1.webp",
         width: 1920,
         height: 1080,
         alt: "Mnara School — guiding every child to shine in Nairobi, Kenya",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "Mnara School | Quality Education in Nairobi, Kenya",
     description:
       "A safe, nurturing school where children grow in confidence, character, and academic excellence.",
-    images: ["https://www.mnaraschool.com/images/hero-1.webp"],
+    images: ["https://mnara.sc.ke/images/hero-1.webp"],
     creator: "@MnaraSchool",
   },
   robots: {
@@ -117,14 +117,14 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
-  "@id": "https://www.mnaraschool.com/#organization",
+  "@id": "https://mnara.sc.ke/#organization",
   name: "Mnara School",
   description:
     "Mnara School is a nurturing educational institution in Nairobi, Kenya, offering Cambridge IGCSE and AlBaseer International Islamic Curriculum from Early Years through Secondary education.",
-  url: "https://www.mnaraschool.com",
+  url: "https://mnara.sc.ke",
   logo: {
     "@type": "ImageObject",
-    url: "https://www.mnaraschool.com/images/logo.png",
+    url: "https://mnara.sc.ke/images/logo.png",
     width: 512,
     height: 512,
   },
@@ -224,21 +224,21 @@ const organizationSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://www.mnaraschool.com/#website",
+  "@id": "https://mnara.sc.ke/#website",
   name: "Mnara School",
-  url: "https://www.mnaraschool.com",
+  url: "https://mnara.sc.ke",
   description:
     "Mnara School — a warm, safe nest in Nairobi where young minds are nurtured, supported, and prepared to soar.",
   publisher: {
     "@type": "Organization",
-    "@id": "https://www.mnaraschool.com/#organization",
+    "@id": "https://mnara.sc.ke/#organization",
   },
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
       urlTemplate:
-        "https://www.mnaraschool.com/search?q={search_term_string}",
+        "https://mnara.sc.ke/search?q={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },
@@ -247,10 +247,10 @@ const websiteSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://www.mnaraschool.com/#localbusiness",
+  "@id": "https://mnara.sc.ke/#localbusiness",
   name: "Mnara School",
-  image: "https://www.mnaraschool.com/images/logo.png",
-  url: "https://www.mnaraschool.com",
+  image: "https://mnara.sc.ke/images/logo.png",
+  url: "https://mnara.sc.ke",
   telephone: "+254713801024",
   email: "info@mnara.sc.ke",
   priceRange: "$$",

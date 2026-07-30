@@ -3,7 +3,7 @@ import { activities } from "./lib/data";
 
 export const dynamic = "force-static";
 
-const BASE_URL = "https://www.mnaraschool.com";
+const BASE_URL = "https://mnara.sc.ke";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

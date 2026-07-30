@@ -18,17 +18,17 @@ export const metadata: Metadata = {
     title: "Early Years Foundation (3–7 Years) | Mnara School",
     description:
       "Early Years Foundation at Mnara School (Ages 3–7). Play-based learning under Key Learning Areas.",
-    images: [{ url: "https://www.mnaraschool.com/images/earlyyears.webp", width: 1920, height: 1080, alt: "Mnara School Early Years Foundation" }],
+    images: [{ url: "https://mnara.sc.ke/images/earlyyears.webp", width: 1920, height: 1080, alt: "Mnara School Early Years Foundation" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Early Years Foundation (3–7 Years) | Mnara School",
     description:
       "Play-based learning for ages 3-7 at Mnara School Nairobi.",
-    images: ["https://www.mnaraschool.com/images/earlyyears.webp"],
+    images: ["https://mnara.sc.ke/images/earlyyears.webp"],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/curriculum/early-years/",
+    canonical: "https://mnara.sc.ke/curriculum/early-years/",
   },
 };
 

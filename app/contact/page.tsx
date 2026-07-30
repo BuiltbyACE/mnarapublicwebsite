@@ -15,18 +15,18 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us | Mnara School",
     description:
-      "Get in touch with Mnara School. Visit our Nairobi campuses or send us a message.",
-    images: [{ url: "https://www.mnaraschool.com/images/hero-3.webp", width: 1920, height: 1080, alt: "Contact Mnara School" }],
+      "Get in touch with Mnara School. Visit our Kileleshwa campus or send us a message.",
+    images: [{ url: "https://mnara.sc.ke/images/hero-3.webp", width: 1920, height: 1080, alt: "Contact Mnara School" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Contact Us | Mnara School",
     description:
-      "Get in touch with Mnara School. Visit our Nairobi campuses or send us a message.",
-    images: ["https://www.mnaraschool.com/images/hero-3.webp"],
+      "Get in touch with Mnara School. Visit our Kileleshwa campus or send us a message.",
+    images: ["https://mnara.sc.ke/images/hero-3.webp"],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/contact/",
+    canonical: "https://mnara.sc.ke/contact/",
   },
 };
 

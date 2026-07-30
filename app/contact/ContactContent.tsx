@@ -179,7 +179,7 @@ export default function ContactContent() {
           "@type": "ContactPage",
           name: "Contact Mnara School",
           description: "Get in touch with Mnara School in Nairobi, Kenya",
-          url: "https://www.mnaraschool.com/contact/",
+          url: "https://mnara.sc.ke/contact/",
           mainEntity: {
             "@type": "School",
             name: "Mnara School",

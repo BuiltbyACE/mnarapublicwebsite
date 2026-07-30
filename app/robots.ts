@@ -10,7 +10,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.mnaraschool.com/sitemap.xml",
-    host: "https://www.mnaraschool.com",
+    sitemap: "https://mnara.sc.ke/sitemap.xml",
+    host: "https://mnara.sc.ke",
   };
 }

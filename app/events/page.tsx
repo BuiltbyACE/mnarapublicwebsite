@@ -21,17 +21,17 @@ export const metadata: Metadata = {
     title: "Events | Mnara School Nairobi",
     description:
       "Stay up-to-date with school events, Quran competitions, sports days, and educational fairs at Mnara School Nairobi.",
-    images: [{ url: "https://www.mnaraschool.com/images/hero-1.webp", width: 1920, height: 1080, alt: "Mnara School Events" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-1.webp", width: 1920, height: 1080, alt: "Mnara School Events" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Events | Mnara School Nairobi",
     description:
       "Stay up-to-date with school events, Quran competitions, sports days, and educational fairs.",
-    images: ["https://www.mnaraschool.com/images/hero-1.webp"],
+    images: ["https://mnara.sc.ke/images/hero-1.webp"],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/events/",
+    canonical: "https://mnara.sc.ke/events/",
   },
 };
 
@@ -44,7 +44,7 @@ const upcomingEvents = [
     location: 'Main School Grounds',
     description: 'A day of athletic excellence and school spirit. Students compete in track and field events in a friendly, supportive environment.',
     category: 'Sports',
-    url: 'https://www.mnaraschool.com/events',
+    url: 'https://mnara.sc.ke/events',
     color: 'from-orange-500 to-orange-600',
     image: '/images/IMG_9988.jpg',
   },
@@ -56,7 +56,7 @@ const upcomingEvents = [
     location: 'Mnara Main Auditorium',
     description: 'Students showcase their memorization, pronunciation, and beautiful recitation of the Quran before a panel of respected scholars.',
     category: 'Spiritual',
-    url: 'https://www.mnaraschool.com/events',
+    url: 'https://mnara.sc.ke/events',
     color: 'from-emerald-500 to-emerald-600',
     image: '/images/IMG_0063.jpg',
     },
@@ -68,7 +68,7 @@ const upcomingEvents = [
     location: 'Mnara Main Auditorium',
     description: 'Our learners speak with confidence and eloquence on global and ethical topics, presenting their ideas to a panel and audience.',
     category: 'Academic',
-    url: 'https://www.mnaraschool.com/events',
+    url: 'https://mnara.sc.ke/events',
     color: 'from-blue-500 to-blue-600',
     image: '/images/hero-3.jpg',
   },
@@ -80,7 +80,7 @@ const upcomingEvents = [
     location: 'Mnara Main Auditorium',
     description: 'A spiritual gathering where students present their memorization and understanding of the Prophet\'s sayings (Hadeeth).',
     category: 'Spiritual',
-    url: 'https://www.mnaraschool.com/events',
+    url: 'https://mnara.sc.ke/events',
     color: 'from-purple-500 to-purple-600',
     image: '/images/IMG_0066.jpg',
     },
@@ -92,7 +92,7 @@ const upcomingEvents = [
     location: 'Mnara Exhibition Hall',
     description: 'An interactive fair where students showcase scale models and projects exploring Islamic jurisprudence (Fiqh).',
     category: 'Islamic Studies',
-    url: 'https://www.mnaraschool.com/events',
+    url: 'https://mnara.sc.ke/events',
     color: 'from-pink-500 to-pink-600',
     image: '/images/hero-2.jpg',
   },
@@ -138,7 +138,7 @@ export default function EventsPage() {
     organizer: {
       '@type': 'Organization',
       name: 'Mnara School',
-      url: 'https://www.mnaraschool.com',
+      url: 'https://mnara.sc.ke',
     },
   };
 

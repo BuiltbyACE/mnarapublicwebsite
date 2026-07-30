@@ -8,7 +8,7 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: "About Mnara School",
   description:
-    "Learn about Mnara School's vision, mission, and values. A nurturing school in Nairobi with campuses in Kileleshwa, Kasuku, and Karen — guiding every child to shine.",
+    "Learn about Mnara School's vision, mission, and values. A nurturing school in Kileleshwa, Nairobi — guiding every child to shine.",
   keywords: [
     "about Mnara School",
     "Mnara School vision mission values",
@@ -19,17 +19,17 @@ export const metadata: Metadata = {
     title: "About Mnara School | Our Vision, Mission & Values",
     description:
       "Learn about Mnara School's vision, mission, and values — guiding every child to shine in Nairobi, Kenya.",
-    images: [{ url: "https://www.mnaraschool.com/images/hero-2.webp", width: 1920, height: 1080, alt: "About Mnara School" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-2.webp", width: 1920, height: 1080, alt: "About Mnara School" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "About Mnara School | Our Vision, Mission & Values",
     description:
       "Learn about Mnara School's vision, mission, and values — guiding every child to shine.",
-    images: ["https://www.mnaraschool.com/images/hero-2.webp"],
+    images: ["https://mnara.sc.ke/images/hero-2.webp"],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/about/",
+    canonical: "https://mnara.sc.ke/about/",
   },
 };
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
         name: "Where is Mnara School located?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Mnara School is located in Kileleshwa, off Nyeri Road, Nairobi, Kenya. We also have campuses in Kasuku and Karen.",
+          text: "Mnara School is located in Kileleshwa, off Nyeri Road, Nairobi, Kenya.",
         },
       },
       {

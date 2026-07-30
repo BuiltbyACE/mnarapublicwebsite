@@ -8,16 +8,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Terms of Service | Mnara School',
     description: 'Terms and conditions governing use of the Mnara School website.',
-    images: [{ url: 'https://www.mnaraschool.com/images/hero-1.webp', width: 1920, height: 1080, alt: 'Mnara School Terms of Service' }],
+    images: [{ url: 'https://mnara.sc.ke/images/hero-1.webp', width: 1920, height: 1080, alt: 'Mnara School Terms of Service' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Terms of Service | Mnara School',
     description: 'Terms and conditions governing use of the Mnara School website.',
-    images: ['https://www.mnaraschool.com/images/hero-1.webp'],
+    images: ['https://mnara.sc.ke/images/hero-1.webp'],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/terms-of-service/",
+    canonical: "https://mnara.sc.ke/terms-of-service/",
   },
 };
 
@@ -39,7 +39,7 @@ export default function TermsOfServicePage() {
             <h2 className="font-heading text-2xl font-bold text-text-dark">1. Acceptance of Terms</h2>
             <p>
               By accessing or using the Mnara School website at{' '}
-              <strong>www.mnaraschool.com</strong> (the &quot;Site&quot;), you agree to be bound by these
+              <strong>mnara.sc.ke</strong> (the &quot;Site&quot;), you agree to be bound by these
               Terms of Service. If you do not agree with any part of these terms, please do not use
               our Site.
             </p>

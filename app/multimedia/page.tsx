@@ -15,17 +15,17 @@ export const metadata: Metadata = {
     title: "Multimedia Gallery | Mnara School",
     description:
       "Photos and campus moments — experience life at Mnara School Nairobi.",
-    images: [{ url: "https://www.mnaraschool.com/images/hero-3.webp", width: 1920, height: 1080, alt: "Mnara School Multimedia Gallery" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-3.webp", width: 1920, height: 1080, alt: "Mnara School Multimedia Gallery" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Multimedia Gallery | Mnara School",
     description:
       "Photos and campus moments — experience life at Mnara School Nairobi.",
-    images: ["https://www.mnaraschool.com/images/hero-3.webp"],
+    images: ["https://mnara.sc.ke/images/hero-3.webp"],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/multimedia/",
+    canonical: "https://mnara.sc.ke/multimedia/",
   },
 };
 

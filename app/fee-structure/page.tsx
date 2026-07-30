@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Fee Structure",
   description: "View the current Mnara School fee structure.",
   alternates: {
-    canonical: "https://www.mnaraschool.com/fee-structure/",
+    canonical: "https://mnara.sc.ke/fee-structure/",
   },
   robots: {
     index: false,

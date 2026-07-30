@@ -20,17 +20,17 @@ export const metadata: Metadata = {
     title: "Upper Secondary – Key Stage 4 | Mnara School",
     description:
       "Upper Secondary at Mnara School — Cambridge IGCSE, AlBaseer subjects, and holistic preparation for higher education (Ages 15–16).",
-    images: [{ url: "https://www.mnaraschool.com/images/hero-3.webp", width: 1920, height: 1080, alt: "Mnara School Upper Secondary" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-3.webp", width: 1920, height: 1080, alt: "Mnara School Upper Secondary" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Upper Secondary – Key Stage 4 | Mnara School",
     description:
       "Cambridge IGCSE, AlBaseer subjects, and holistic preparation for higher education.",
-    images: ["https://www.mnaraschool.com/images/hero-3.webp"],
+    images: ["https://mnara.sc.ke/images/hero-3.webp"],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/curriculum/highschool/",
+    canonical: "https://mnara.sc.ke/curriculum/highschool/",
   },
 };
 

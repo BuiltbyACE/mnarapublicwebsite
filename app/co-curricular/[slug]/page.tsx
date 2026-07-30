@@ -22,16 +22,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title: `${activity.title} | Mnara School Co-Curricular`,
       description: (activity.longDescription || activity.description).slice(0, 160),
-      images: [{ url: `https://www.mnaraschool.com${activity.image || "/images/hero-1.webp"}`, width: 1920, height: 1080, alt: `${activity.title} at Mnara School` }],
+      images: [{ url: `https://mnara.sc.ke${activity.image || "/images/hero-1.webp"}`, width: 1920, height: 1080, alt: `${activity.title} at Mnara School` }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${activity.title} | Mnara School Co-Curricular`,
       description: (activity.longDescription || activity.description).slice(0, 160),
-      images: [`https://www.mnaraschool.com${activity.image || "/images/hero-1.webp"}`],
+      images: [`https://mnara.sc.ke${activity.image || "/images/hero-1.webp"}`],
     },
     alternates: {
-      canonical: `https://www.mnaraschool.com/co-curricular/${slug}/`,
+      canonical: `https://mnara.sc.ke/co-curricular/${slug}/`,
     },
   };
 }

@@ -18,17 +18,17 @@ export const metadata: Metadata = {
     title: "Lower Secondary (Key Stage 3) | Mnara School",
     description:
       "A vibrant learning environment focusing on academic excellence, life skills, and Islamic mentorship (Ages 12-14).",
-    images: [{ url: "https://www.mnaraschool.com/images/hero-2.webp", width: 1920, height: 1080, alt: "Mnara School Lower Secondary" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-2.webp", width: 1920, height: 1080, alt: "Mnara School Lower Secondary" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lower Secondary (Key Stage 3) | Mnara School",
     description:
       "Academic excellence, life skills, and Islamic mentorship for Ages 12-14.",
-    images: ["https://www.mnaraschool.com/images/hero-2.webp"],
+    images: ["https://mnara.sc.ke/images/hero-2.webp"],
   },
   alternates: {
-    canonical: "https://www.mnaraschool.com/curriculum/middle-school/",
+    canonical: "https://mnara.sc.ke/curriculum/middle-school/",
   },
 };
 

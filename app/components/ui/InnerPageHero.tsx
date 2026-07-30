@@ -19,12 +19,12 @@ export default function InnerPageHero({ title, image, breadcrumbs }: InnerPageHe
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mnaraschool.com' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mnara.sc.ke' },
       ...breadcrumbs.map((crumb, i) => ({
         '@type': 'ListItem',
         position: i + 2,
         name: crumb.label,
-        ...(crumb.href ? { item: `https://www.mnaraschool.com${crumb.href}` } : {}),
+        ...(crumb.href ? { item: `https://mnara.sc.ke${crumb.href}` } : {}),
       })),
     ],
   };
