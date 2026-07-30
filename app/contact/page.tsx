@@ -4,7 +4,7 @@ import ContactContent from "./ContactContent";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Mnara School. Visit us in Kileleshwa, Nairobi. Call +254 713 801 024 or email info@mnara.co.ke. Book a school tour today.",
+    "Get in touch with Mnara School. Visit us in Kileleshwa, Nairobi. Call +254 713 801 024 or email info@mnara.sc.ke. Book a school tour today.",
   keywords: [
     "contact Mnara School",
     "Mnara School Nairobi phone",

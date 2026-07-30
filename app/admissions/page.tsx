@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import StandardPage from '../templates/StandardPage';
 import Accordion from '../components/ui/Accordion';
+import { Eye } from 'lucide-react';
 
 import Link from 'next/link';
 
@@ -99,11 +100,17 @@ export default function AdmissionsPage() {
               Fee Structure
             </h3>
             <p className="text-text-muted text-sm mb-6">
-              Our fees are structured to provide exceptional value for the quality of education and facilities offered. Fees vary by grade level and campus.
+              Our fees are structured to provide exceptional value for the quality of education and facilities offered. Fees vary by grade level. View the full, current fee structure below.
             </p>
-            <Link href="/contact" className="btn-outline-primary w-full justify-center">
-              Request Fee Structure
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link href="/fee-structure" className="btn-primary flex-1 justify-center">
+                <Eye size={18} />
+                View Fee Structure
+              </Link>
+              <Link href="/contact" className="btn-outline-primary flex-1 justify-center">
+                Ask a Question
+              </Link>
+            </div>
           </div>
 
           <div className="bg-primary/5 rounded-2xl p-8 border border-primary/10">

@@ -162,7 +162,7 @@ export default function Footer() {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-xs text-white/30 uppercase font-bold tracking-wider">Email Us</span>
-                    <span>info@mnara.co.ke</span>
+                    <span>info@mnara.sc.ke</span>
                   </div>
                 </li>
                 <li className="flex items-center gap-4 text-white/60 text-sm group">

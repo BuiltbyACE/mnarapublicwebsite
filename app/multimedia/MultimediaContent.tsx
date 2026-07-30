@@ -7,46 +7,24 @@ import InnerPageHero from '../components/ui/InnerPageHero';
 import SectionWrapper from '../components/SectionWrapper';
 
 const photos = [
-  { id: 1,   src: '/images/DSC_8016.jpg',  alt: 'School life at Mnara',            category: 'Campus Life' },
-  { id: 2,   src: '/images/DSC_8024.jpg',  alt: 'Students at Mnara School',        category: 'Campus Life' },
-  { id: 3,   src: '/images/DSC_8025.jpg',  alt: 'Learning moment at Mnara',        category: 'Academic' },
-  { id: 4,   src: '/images/DSC_8026.jpg',  alt: 'Mnara School community',          category: 'Campus Life' },
-  { id: 5,   src: '/images/DSC_8027.jpg',  alt: 'Students in session',             category: 'Academic' },
-  { id: 6,   src: '/images/DSC_8028.jpg',  alt: 'Mnara campus activity',           category: 'Campus Life' },
-  { id: 7,   src: '/images/IMG_0002.jpg',  alt: 'Mnara School students',           category: 'Academic' },
-  { id: 8,   src: '/images/IMG_0009.jpg',  alt: 'Students at Mnara',               category: 'Academic' },
-  { id: 9,   src: '/images/IMG_0011.jpg',  alt: 'Classroom moment',                category: 'Academic' },
-  { id: 10,  src: '/images/IMG_0012.jpg',  alt: 'Mnara learning environment',      category: 'Academic' },
-  { id: 11,  src: '/images/IMG_0013.jpg',  alt: 'Student activity',                category: 'Campus Life' },
-  { id: 12,  src: '/images/IMG_0014.jpg',  alt: 'School event',                    category: 'Special Events' },
-  { id: 13,  src: '/images/IMG_0015.jpg',  alt: 'Mnara students engaged',          category: 'Academic' },
-  { id: 14,  src: '/images/IMG_0016.jpg',  alt: 'School life highlights',          category: 'Campus Life' },
-  { id: 15,  src: '/images/IMG_0017.jpg',  alt: 'Students collaborating',          category: 'Academic' },
-  { id: 16,  src: '/images/IMG_0018.jpg',  alt: 'Mnara community gathering',       category: 'Special Events' },
-  { id: 17,  src: '/images/IMG_0023.jpg',  alt: 'Campus activities',               category: 'Campus Life' },
-  { id: 18,  src: '/images/IMG_0024.jpg',  alt: 'Students in class',               category: 'Academic' },
-  { id: 19,  src: '/images/IMG_0025.jpg',  alt: 'Learning at Mnara',               category: 'Academic' },
-  { id: 20,  src: '/images/IMG_0026.jpg',  alt: 'School moments',                  category: 'Campus Life' },
-  { id: 21,  src: '/images/IMG_0029.jpg',  alt: 'Students engaged in activities',  category: 'Academic' },
-  { id: 22,  src: '/images/IMG_0030.jpg',  alt: 'Mnara school environment',        category: 'Campus Life' },
-  { id: 23,  src: '/images/IMG_0031.jpg',  alt: 'Student group activity',          category: 'Academic' },
-  { id: 24,  src: '/images/IMG_0032.jpg',  alt: 'Learning session',                category: 'Academic' },
-  { id: 25,  src: '/images/IMG_0033.jpg',  alt: 'School event highlights',         category: 'Special Events' },
-  { id: 26,  src: '/images/IMG_0034.jpg',  alt: 'Mnara school activities',         category: 'Campus Life' },
-  { id: 27,  src: '/images/IMG_0035.jpg',  alt: 'Students at work',                category: 'Academic' },
-  { id: 28,  src: '/images/IMG_0036.jpg',  alt: 'Campus life',                     category: 'Campus Life' },
-  { id: 29,  src: '/images/IMG_0040.jpg',  alt: 'Mnara students',                  category: 'Academic' },
-  { id: 30,  src: '/images/IMG_0041.jpg',  alt: 'School day at Mnara',             category: 'Campus Life' },
-  { id: 31,  src: '/images/IMG_0042.jpg',  alt: 'Students learning together',      category: 'Academic' },
-  { id: 32,  src: '/images/IMG_0043.jpg',  alt: 'Mnara school community',          category: 'Campus Life' },
-  { id: 33,  src: '/images/IMG_0044.jpg',  alt: 'School activity',                 category: 'Campus Life' },
-  { id: 34,  src: '/images/IMG_0045.jpg',  alt: 'Mnara learning moment',           category: 'Academic' },
-  { id: 35,  src: '/images/IMG_0046.jpg',  alt: 'Students participating',          category: 'Academic' },
-  { id: 36,  src: '/images/IMG_0047.jpg',  alt: 'Campus snapshot',                 category: 'Campus Life' },
-  { id: 37,  src: '/images/IMG_0048.jpg',  alt: 'Mnara school event',              category: 'Special Events' },
-  { id: 38,  src: '/images/IMG_0049.jpg',  alt: 'Students at Mnara',               category: 'Academic' },
-  { id: 39,  src: '/images/IMG_0050.jpg',  alt: 'School life at Mnara',            category: 'Campus Life' },
-  { id: 40,  src: '/images/IMG_0051.jpg',  alt: 'Mnara community event',           category: 'Special Events' },
+  { id: 1,   src: '/images/DSC_8016.jpg' },
+  { id: 2,   src: '/images/DSC_8025.jpg' },
+  { id: 3,   src: '/images/DSC_8028.jpg' },
+  { id: 4,   src: '/images/IMG_0013.jpg' },
+  { id: 5,   src: '/images/IMG_0018.jpg' },
+  { id: 6,   src: '/images/IMG_0030.jpg' },
+  { id: 7,   src: '/images/IMG_0057.jpg' },
+  { id: 8,   src: '/images/IMG_0064.jpg' },
+  { id: 9,   src: '/images/IMG_0084.jpg' },
+  { id: 10,  src: '/images/IMG_9888.jpg' },
+  { id: 11,  src: '/images/IMG_9890.jpg' },
+  { id: 12,  src: '/images/IMG_9996.jpg' },
+  { id: 13,  src: '/images/IMG_9938.jpg' },
+  { id: 14,  src: '/images/IMG_9925.jpg' },
+  { id: 15,  src: '/images/IMG_9924.jpg' },
+  { id: 16,  src: '/images/IMG_9901.jpg' },
+  { id: 17,  src: '/images/IMG_9898.jpg' },
+  { id: 18,  src: '/images/IMG_0162.jpg' },
 ];
 
 export default function MultimediaContent() {
@@ -90,25 +68,19 @@ export default function MultimediaContent() {
                 role="button"
                 tabIndex={0}
                 onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setSelectedImage(photo.src); }}
-                aria-label={`View ${photo.alt}`}
+                aria-label="View photo"
               >
                 <Image
                   src={photo.src}
-                  alt={photo.alt}
+                  alt="Mnara School"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                  <div className="text-xs font-bold text-primary uppercase tracking-wider mb-1">
-                    {photo.category}
-                  </div>
-                  <div className="text-white font-semibold flex items-center justify-between">
-                    {photo.alt}
-                    <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                      <Search size={14} className="text-white" />
-                    </div>
+
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <Search size={16} className="text-white" />
                   </div>
                 </div>
               </div>

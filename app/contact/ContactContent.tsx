@@ -62,8 +62,8 @@ export default function ContactContent() {
           <div>
             <h3 className="font-heading font-bold text-lg text-text-dark mb-1">Email Us</h3>
             <p className="text-text-muted mb-1">Our friendly team is here to help.</p>
-            <a href="mailto:info@mnara.co.ke" className="text-primary font-medium hover:underline">
-              info@mnara.co.ke
+            <a href="mailto:info@mnara.sc.ke" className="text-primary font-medium hover:underline">
+              info@mnara.sc.ke
             </a>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function ContactContent() {
           <AlertCircle size={20} className="shrink-0 mt-0.5" />
           <div>
             <p className="font-semibold">Something went wrong</p>
-            <p className="text-sm mt-0.5">Please try again or email us directly at info@mnara.co.ke</p>
+            <p className="text-sm mt-0.5">Please try again or email us directly at info@mnara.sc.ke</p>
           </div>
         </div>
       )}
@@ -184,7 +184,7 @@ export default function ContactContent() {
             "@type": "School",
             name: "Mnara School",
             telephone: "+254713801024",
-            email: "info@mnara.co.ke",
+            email: "info@mnara.sc.ke",
             address: {
               "@type": "PostalAddress",
               streetAddress: "Kileleshwa, off Nyeri Road",

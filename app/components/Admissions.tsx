@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Eye } from 'lucide-react';
 import SectionWrapper from './SectionWrapper';
 import SectionHeader from './ui/SectionHeader';
 import { admissionSteps, admissionReasons } from '../lib/data';
@@ -67,17 +68,21 @@ export default function Admissions() {
               Fee Structure
             </h4>
             <p className="text-text-muted text-sm mb-4">
-              Available upon request from the admissions office.
+              View our current fee structure, or get in touch if you have any questions.
             </p>
             <h4 className="font-heading font-bold text-text-dark mb-2">
               Book a School Tour
             </h4>
             <p className="text-text-muted text-sm">
-              Experience Mnara School firsthand at any of our three campuses.
+              Experience Mnara School firsthand at our Kileleshwa campus.
             </p>
           </div>
 
-          <div className="mt-6">
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link href="/fee-structure" className="btn-outline-primary">
+              <Eye size={18} />
+              Fee Structure
+            </Link>
             <Link href="/contact" className="btn-primary">
               Apply Today
             </Link>

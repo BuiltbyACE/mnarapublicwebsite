@@ -11,7 +11,7 @@ export default function Shop() {
         <div className="relative">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/hero-3.jpg"
+              src="/images/IMG_0088.jpg"
               alt="MnaraSchool merchandise"
               fill
               className="object-cover"

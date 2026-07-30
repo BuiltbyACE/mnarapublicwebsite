@@ -121,8 +121,8 @@ export default function CookiePolicyPage() {
               <p><strong className="text-text-dark">Mnara School</strong></p>
               <p>
                 Email:{' '}
-                <a href="mailto:info@mnara.co.ke" className="text-primary hover:underline">
-                  info@mnara.co.ke
+                <a href="mailto:info@mnara.sc.ke" className="text-primary hover:underline">
+                  info@mnara.sc.ke
                 </a>
               </p>
               <p>

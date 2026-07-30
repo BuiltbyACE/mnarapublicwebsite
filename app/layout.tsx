@@ -129,7 +129,7 @@ const organizationSchema = {
     height: 512,
   },
   telephone: "+254713801024",
-  email: "info@mnara.co.ke",
+  email: "info@mnara.sc.ke",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Kileleshwa, off Nyeri Road",
@@ -157,7 +157,7 @@ const organizationSchema = {
     },
     {
       "@type": "ContactPoint",
-      email: "info@mnara.co.ke",
+      email: "info@mnara.sc.ke",
       contactType: "customer service",
       areaServed: "KE",
       availableLanguage: ["English", "Swahili", "Arabic"],
@@ -252,7 +252,7 @@ const localBusinessSchema = {
   image: "https://www.mnaraschool.com/images/logo.png",
   url: "https://www.mnaraschool.com",
   telephone: "+254713801024",
-  email: "info@mnara.co.ke",
+  email: "info@mnara.sc.ke",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",

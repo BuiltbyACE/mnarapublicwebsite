@@ -103,8 +103,8 @@ export default function PrivacyPolicyPage() {
             </ul>
             <p>
               To exercise any of these rights, please contact us at{' '}
-              <a href="mailto:info@mnara.co.ke" className="text-primary hover:underline font-medium">
-                info@mnara.co.ke
+              <a href="mailto:info@mnara.sc.ke" className="text-primary hover:underline font-medium">
+                info@mnara.sc.ke
               </a>.
               We will respond within 21 days.
             </p>
@@ -143,8 +143,8 @@ export default function PrivacyPolicyPage() {
               <p>Kileleshwa, off Nyeri Road, Nairobi, Kenya</p>
               <p>
                 Email:{' '}
-                <a href="mailto:info@mnara.co.ke" className="text-primary hover:underline">
-                  info@mnara.co.ke
+                <a href="mailto:info@mnara.sc.ke" className="text-primary hover:underline">
+                  info@mnara.sc.ke
                 </a>
               </p>
               <p>

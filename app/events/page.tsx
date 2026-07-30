@@ -58,7 +58,7 @@ const upcomingEvents = [
     category: 'Spiritual',
     url: 'https://www.mnaraschool.com/events',
     color: 'from-emerald-500 to-emerald-600',
-    image: '/images/IMG_0066.jpg',
+    image: '/images/IMG_0063.jpg',
     },
     {
       id: 3,
