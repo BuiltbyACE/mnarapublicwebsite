@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     title: "Admissions | Mnara School",
     description:
       "Join our community. Learn about the admissions process, requirements, and how to book a tour.",
-    images: [{ url: "https://mnara.sc.ke/images/hero-1.webp", width: 1920, height: 1080, alt: "Mnara School Admissions" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-1.jpg", width: 1920, height: 1080, alt: "Mnara School Admissions" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Admissions | Mnara School",
     description:
       "Join our community. Learn about the admissions process, requirements, and how to book a tour.",
-    images: ["https://mnara.sc.ke/images/hero-1.webp"],
+    images: ["https://mnara.sc.ke/images/hero-1.jpg"],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/admissions/",

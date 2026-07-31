@@ -32,10 +32,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://mnara.sc.ke"),
   title: {
     template: "%s | Mnara School",
-    default: "Mnara School | Cambridge & Islamic Education in Kileleshwa, Nairobi",
+    default: "Mnara School | Cambridge & Islamic Education, Nairobi",
   },
   description:
-    "Mnara School, Kileleshwa (off Nyeri Road), Nairobi: Cambridge IGCSE and AlBaseer Islamic Curriculum from Early Years to Secondary. Book a tour or enquire about admissions today.",
+    "Mnara School in Kileleshwa, Nairobi offers Cambridge IGCSE and AlBaseer Islamic Curriculum from Early Years to Secondary. Book a tour or enquire today.",
   keywords: [
     "Mnara School",
     "school in Nairobi",
@@ -46,7 +46,6 @@ export const metadata: Metadata = {
     "AlBaseer Curriculum",
     "IGCSE Nairobi",
     "international school Kenya",
-    "best school Nairobi",
     "nursery school Nairobi",
     "secondary school Kenya",
     "primary school Nairobi",
@@ -71,10 +70,10 @@ export const metadata: Metadata = {
     locale: "en_KE",
     images: [
       {
-        url: "https://mnara.sc.ke/images/hero-1.webp",
+        url: "https://mnara.sc.ke/images/hero-1.jpg",
         width: 1920,
         height: 1080,
-        alt: "Mnara School — guiding every child to shine in Nairobi, Kenya",
+        alt: "Mnara School — Cambridge and AlBaseer Islamic Curriculum in Nairobi, Kenya",
       },
     ],
   },
@@ -83,7 +82,7 @@ export const metadata: Metadata = {
     title: "Mnara School | Quality Education in Nairobi, Kenya",
     description:
       "A safe, nurturing school where children grow in confidence, character, and academic excellence.",
-    images: ["https://mnara.sc.ke/images/hero-1.webp"],
+    images: ["https://mnara.sc.ke/images/hero-1.jpg"],
     creator: "@MnaraSchool",
   },
   robots: {
@@ -233,15 +232,6 @@ const websiteSchema = {
     "@type": "Organization",
     "@id": "https://mnara.sc.ke/#organization",
   },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate:
-        "https://mnara.sc.ke/search?q={search_term_string}",
-    },
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const localBusinessSchema = {
@@ -253,7 +243,6 @@ const localBusinessSchema = {
   url: "https://mnara.sc.ke",
   telephone: "+254713801024",
   email: "info@mnara.sc.ke",
-  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Kileleshwa, off Nyeri Road",

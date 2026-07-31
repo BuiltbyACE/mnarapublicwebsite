@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cookie Policy | Mnara School',
     description: 'How Mnara School uses cookies on its website and how you can manage your preferences.',
-    images: [{ url: 'https://mnara.sc.ke/images/hero-3.webp', width: 1920, height: 1080, alt: 'Mnara School Cookie Policy' }],
+    images: [{ url: 'https://mnara.sc.ke/images/hero-3.jpg', width: 1920, height: 1080, alt: 'Mnara School Cookie Policy' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cookie Policy | Mnara School',
     description: 'How Mnara School uses cookies on its website and how you can manage your preferences.',
-    images: ['https://mnara.sc.ke/images/hero-3.webp'],
+    images: ['https://mnara.sc.ke/images/hero-3.jpg'],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/cookie-policy/",

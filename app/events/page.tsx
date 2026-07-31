@@ -9,7 +9,7 @@ import SectionWrapper from '../components/SectionWrapper';
 export const metadata: Metadata = {
   title: "Events",
   description:
-    "Stay up-to-date with Mnara School Nairobi events: Sports Day, Quran Competition, Hadeeth Competition, Fiqh Fair, and Public Speaking Championship.",
+    "Stay up to date with Mnara School Nairobi events, including Sports Day, the Quran Competition, Hadeeth Competition, Fiqh Fair, and Public Speaking Championship.",
   keywords: [
     "Mnara School events",
     "school events Nairobi",
@@ -21,14 +21,14 @@ export const metadata: Metadata = {
     title: "Events | Mnara School Nairobi",
     description:
       "Stay up-to-date with school events, Quran competitions, sports days, and educational fairs at Mnara School Nairobi.",
-    images: [{ url: "https://mnara.sc.ke/images/hero-1.webp", width: 1920, height: 1080, alt: "Mnara School Events" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-1.jpg", width: 1920, height: 1080, alt: "Mnara School Events" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Events | Mnara School Nairobi",
     description:
       "Stay up-to-date with school events, Quran competitions, sports days, and educational fairs.",
-    images: ["https://mnara.sc.ke/images/hero-1.webp"],
+    images: ["https://mnara.sc.ke/images/hero-1.jpg"],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/events/",

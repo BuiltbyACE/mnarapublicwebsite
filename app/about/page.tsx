@@ -6,9 +6,9 @@ import Image from 'next/image';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "About Mnara School",
+  title: "About Us",
   description:
-    "Learn about Mnara School's vision, mission, and values. A nurturing school in Kileleshwa, Nairobi — guiding every child to shine.",
+    "Mnara School's vision, mission, and MNARA values: Moral, Nurturing, Aware, Resilient, Achievers. A Cambridge and Islamic school in Kileleshwa, Nairobi.",
   keywords: [
     "about Mnara School",
     "Mnara School vision mission values",
@@ -18,15 +18,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Mnara School | Our Vision, Mission & Values",
     description:
-      "Learn about Mnara School's vision, mission, and values — guiding every child to shine in Nairobi, Kenya.",
-    images: [{ url: "https://mnara.sc.ke/images/hero-2.webp", width: 1920, height: 1080, alt: "About Mnara School" }],
+      "Mnara School's vision, mission, and MNARA values — Moral, Nurturing, Aware, Resilient, Achievers — in Nairobi, Kenya.",
+    images: [{ url: "https://mnara.sc.ke/images/hero-2.jpg", width: 1920, height: 1080, alt: "About Mnara School" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "About Mnara School | Our Vision, Mission & Values",
     description:
-      "Learn about Mnara School's vision, mission, and values — guiding every child to shine.",
-    images: ["https://mnara.sc.ke/images/hero-2.webp"],
+      "Mnara School's vision, mission, and MNARA values: Moral, Nurturing, Aware, Resilient, Achievers.",
+    images: ["https://mnara.sc.ke/images/hero-2.jpg"],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/about/",

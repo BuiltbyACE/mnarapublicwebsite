@@ -3,7 +3,8 @@ import StandardPage from '../templates/StandardPage';
 
 export const metadata: Metadata = {
   title: "Fee Structure",
-  description: "View the current Mnara School fee structure.",
+  description:
+    "View the current Mnara School fee structure for Early Years, Primary, and Secondary, and download the full fee schedule as a PDF for your reference.",
   alternates: {
     canonical: "https://mnara.sc.ke/fee-structure/",
   },

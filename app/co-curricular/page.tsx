@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     title: "Co-Curricular Activities | Mnara School",
     description:
       "Beyond the classroom — explore sports, music, ballet, robotics, art & craft, and debate programs.",
-    images: [{ url: "https://mnara.sc.ke/images/hero-2.webp", width: 1920, height: 1080, alt: "Mnara School Co-Curricular Activities" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-2.jpg", width: 1920, height: 1080, alt: "Mnara School Co-Curricular Activities" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Co-Curricular Activities | Mnara School",
     description:
       "Beyond the classroom — explore sports, music, ballet, robotics, art & craft, and debate programs.",
-    images: ["https://mnara.sc.ke/images/hero-2.webp"],
+    images: ["https://mnara.sc.ke/images/hero-2.jpg"],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/co-curricular/",

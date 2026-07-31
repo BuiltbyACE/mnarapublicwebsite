@@ -6,7 +6,7 @@ import { CurriculumPageData } from '../../lib/types';
 export const metadata: Metadata = {
   title: "Lower Secondary (Key Stage 3)",
   description:
-    "Mnara School Lower Secondary program for Ages 12-14 (Key Stage 3). Academic excellence meets personal growth, essential life skills, and Islamic mentorship in Nairobi.",
+    "Mnara School Lower Secondary (Key Stage 3, Ages 12-14) blends academic excellence with life skills and Islamic mentorship in Kileleshwa, Nairobi.",
   keywords: [
     "lower secondary school Nairobi",
     "Key Stage 3 Kenya",
@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     title: "Lower Secondary (Key Stage 3) | Mnara School",
     description:
       "A vibrant learning environment focusing on academic excellence, life skills, and Islamic mentorship (Ages 12-14).",
-    images: [{ url: "https://mnara.sc.ke/images/hero-2.webp", width: 1920, height: 1080, alt: "Mnara School Lower Secondary" }],
+    images: [{ url: "https://mnara.sc.ke/images/hero-2.jpg", width: 1920, height: 1080, alt: "Mnara School Lower Secondary" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lower Secondary (Key Stage 3) | Mnara School",
     description:
       "Academic excellence, life skills, and Islamic mentorship for Ages 12-14.",
-    images: ["https://mnara.sc.ke/images/hero-2.webp"],
+    images: ["https://mnara.sc.ke/images/hero-2.jpg"],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/curriculum/middle-school/",

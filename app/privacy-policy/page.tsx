@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Privacy Policy | Mnara School',
     description: 'Learn how Mnara School collects, uses, and protects your personal data.',
-    images: [{ url: 'https://mnara.sc.ke/images/hero-2.webp', width: 1920, height: 1080, alt: 'Mnara School Privacy Policy' }],
+    images: [{ url: 'https://mnara.sc.ke/images/hero-2.jpg', width: 1920, height: 1080, alt: 'Mnara School Privacy Policy' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Privacy Policy | Mnara School',
     description: 'Learn how Mnara School collects, uses, and protects your personal data.',
-    images: ['https://mnara.sc.ke/images/hero-2.webp'],
+    images: ['https://mnara.sc.ke/images/hero-2.jpg'],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/privacy-policy/",

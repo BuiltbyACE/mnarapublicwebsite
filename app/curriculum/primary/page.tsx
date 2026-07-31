@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     title: "Primary School Curriculum | Mnara School",
     description:
       "Building confident, well-rounded learners through a holistic and academic approach (Ages 6-11).",
-    images: [{ url: "https://mnara.sc.ke/images/primaryschool.webp", width: 1920, height: 1080, alt: "Mnara School Primary Curriculum" }],
+    images: [{ url: "https://mnara.sc.ke/images/primaryschool.jpeg", width: 1920, height: 1080, alt: "Mnara School Primary Curriculum" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Primary School Curriculum | Mnara School",
     description:
       "Building confident, well-rounded learners through a holistic approach (Ages 6-11).",
-    images: ["https://mnara.sc.ke/images/primaryschool.webp"],
+    images: ["https://mnara.sc.ke/images/primaryschool.jpeg"],
   },
   alternates: {
     canonical: "https://mnara.sc.ke/curriculum/primary/",
