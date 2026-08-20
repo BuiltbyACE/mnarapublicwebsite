@@ -15,7 +15,7 @@ const socialLinks = [
 export default function Footer() {
   // Logic to group navLinks
   const companyLinks = navLinks.filter(link => 
-    ['Home', 'About Us', 'Contact Us'].includes(link.label)
+    ['Home', 'About Us', 'Careers', 'Contact Us'].includes(link.label)
   );
   
 

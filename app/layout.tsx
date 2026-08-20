@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import TopBar from "./components/TopBar";
+import HiringAnnouncementModal from "./components/HiringAnnouncementModal";
 import Footer from "./components/Footer";
 import WhatsAppCTA from "./components/WhatsAppCTA";
 import GoogleAnalytics from "./components/GoogleAnalytics";
@@ -279,14 +281,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
-      <body className="antialiased">
+      <body className="antialiased" suppressHydrationWarning>
         <a
           href="#main-content"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[999] focus:px-4 focus:py-2 focus:bg-primary focus:text-white focus:rounded-lg focus:font-bold focus:text-sm"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-16 focus:left-4 focus:z-[200] focus:px-4 focus:py-2 focus:bg-primary focus:text-white focus:rounded-lg focus:font-bold focus:text-sm"
         >
           Skip to main content
         </a>
+        <TopBar />
         <Navbar />
+        <HiringAnnouncementModal />
         <main id="main-content">{children}</main>
         <Footer />
         <WhatsAppCTA />

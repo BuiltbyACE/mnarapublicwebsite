@@ -59,6 +59,7 @@ export const navLinks: NavItem[] = [
   },
 
   { label: 'Events', href: '/events' },
+  { label: 'Careers', href: '/careers' },
   { label: 'Multimedia', href: '/multimedia' },
   { label: 'Contact Us', href: '/contact' },
 ];
