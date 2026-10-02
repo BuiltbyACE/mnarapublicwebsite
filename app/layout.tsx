@@ -3,7 +3,7 @@ import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import TopBar from "./components/TopBar";
-import HiringAnnouncementModal from "./components/HiringAnnouncementModal";
+// import HiringAnnouncementModal from "./components/HiringAnnouncementModal";
 import Footer from "./components/Footer";
 import WhatsAppCTA from "./components/WhatsAppCTA";
 import GoogleAnalytics from "./components/GoogleAnalytics";
@@ -290,7 +290,8 @@ export default function RootLayout({
         </a>
         <TopBar />
         <Navbar />
-        <HiringAnnouncementModal />
+        {/* Popup currently disabled. Re-enable by restoring the line below. */}
+        {/* <HiringAnnouncementModal /> */}
         <main id="main-content">{children}</main>
         <Footer />
         <WhatsAppCTA />
