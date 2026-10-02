@@ -7,8 +7,8 @@ import { X } from 'lucide-react';
 const SESSION_KEY = 'mnara-hiring-seen';
 
 const hiringAnnouncement = {
-  image: '/images/mnaraschoolcarrer.png',
-  alt: 'Mnara School — We are hiring. View current job openings and apply.',
+  image: '/advert.jpeg',
+  alt: 'Mnara School — Advert',
 };
 
 const studentIllustration = {
